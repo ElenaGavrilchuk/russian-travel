@@ -3,9 +3,7 @@
     max-height: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto; 
-    margin-top: 92px;
-    margin-bottom: 24px;
+    margin: 0 auto 24px; 
     /*border: solid green;*/
   }
   
