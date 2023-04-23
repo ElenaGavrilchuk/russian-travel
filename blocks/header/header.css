@@ -4,23 +4,28 @@
         margin: 28px 48px 56px;
         padding: 0;
         max-width: 1184px;
+        /*border: solid 1px greenyellow;*/
+
       }
       
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 1023px) {
         .header {
-          margin: 28px 48px 53px;
+          width: 91%;
+          margin: 28px auto 53px;
         }
       }
       
-      @media screen and (max-width: 1024px) {
+      @media screen and (max-width: 767px) {
         .header {
-          margin: 28px 24px 48px;
+          margin: 28px auto 48px;
+          width: 94%;
         }
       }
       
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 319px) {
         .header {
-          margin: 16px 16px 48px;
+          margin: 16px auto 48px;
+          width: 90%;
         }
       }
  

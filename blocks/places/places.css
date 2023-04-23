@@ -1,28 +1,28 @@
 .places {
-    max-width: 984px;
-    height: 3392px;
+    display: flex;
+    flex-direction: column;
+    width: 984px;
     margin: 0 148px 92px;
-   /*border: solid red;*/
-    box-sizing: border-box;
+    border: solid red;
     padding: 0;
   }
   
   @media screen and (max-width: 1024px) {
     .places {
-      max-width: 928px;
+      max-width: 91%;
     }
   }
   
   @media screen and (max-width: 768px) {
     .places {
       margin: 0 24px 90px;
-      max-width: 720px;
+      max-width: 94%;
     }
   }
   
   @media screen and (max-width: 320px) {
     .places {
       margin: 0 0 64px;
-      max-width: 320px;
+      max-width: 100%;
     }
   }

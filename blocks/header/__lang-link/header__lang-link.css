@@ -5,10 +5,14 @@
     line-height: 28px;
     transition: .3s ease-in-out;
     right: 0;
+    opacity: 0.8;
+    width: 30px;
+    /*border: solid 1px plum;*/
     }
   
   .header__lang-link:hover {
     opacity: .8;
+    text-decoration: underline;
   }
   
   @media screen and (max-width: 768px) {

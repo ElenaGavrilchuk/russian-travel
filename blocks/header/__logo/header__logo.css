@@ -1,9 +1,15 @@
-.logo {    
- position: absolute;
- width: 176px;
+.header__logo {    
+ max-width: 1280px;
  height: 52px;
  left: 48px;
  top: 28px;
- background: #FFFFFF;
- background-image: url(../../../images/logo/__logo.svg);
+ /*border: solid 1px rebeccapurple;*/
+}  
+
+@media screen and (max-width: 319px) {
+    .header__logo {
+      width: 142px;
+        
+  }
+
 }

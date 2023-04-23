@@ -4,6 +4,10 @@
     font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
+    align-items: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    border: solid 1px yellow;
+}

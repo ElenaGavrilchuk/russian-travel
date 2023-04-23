@@ -1,25 +1,25 @@
-.place__link {
+.place_link {
     color: white;
     transition: .3s ease-in-out;
     font-size: 18px;
     line-height: 22px;
     width: 456px;
-    /*border: solid red;*/
+    border: solid red;
   }
   
-  .place__link:hover {
+  .place_link:hover {
     opacity: .5;
   }
   
   @media screen and (max-width: 768px) {
-    .place__link {
+    .place_link {
       width: 352px;
       margin: 0 24px 48px 392px;
     }
   }
 
   @media screen and (max-width: 320px) {
-    .place__link {
+    .place_link {
       margin: 0 16px 32px;
       width: 288px;
     }

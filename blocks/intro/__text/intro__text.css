@@ -4,6 +4,7 @@
     line-height: 26.08px;
     margin-bottom: 33px;
     width: 690px;
+    /*border: solid 1px chartreuse;*/
   }
   
   @media screen and (max-width: 768px) {

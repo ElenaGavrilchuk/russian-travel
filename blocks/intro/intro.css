@@ -1,7 +1,8 @@
 .intro {
-    margin-bottom: 92px;
+    margin: 0 442px 92px 148px;
     padding: 0;
-    max-width: 690px;
+    width: 690px;
+    height: 429px;
     align-self: center;
     /*border: solid magenta;*/
   }
