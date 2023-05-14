@@ -12,7 +12,7 @@
   @media screen and (max-width: 768px) {
     .place_title {
       width: calc(100vw - 428px);
-      font-size: calc( ( 100vw - 768px) / (1280 -768) *  (76-46) + 46px);
+      font-size: calc( ( 100vw - 768px) / (1280 - 768) *  (76 - 46) + 46px);
       line-height: 46px;
       max-height: 92px;
     }
@@ -20,7 +20,7 @@
 
   @media screen and (max-width: 425px) {
     .place_title {
-      margin: 0 16px; ;
+      margin: 0 16px;
       font-size: 32px;
       line-height: 35px;
     }
