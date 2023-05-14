@@ -4,11 +4,13 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
     list-style-type: none;
-    padding: 0;
+    padding: 0 16px;
+    /*border: solid green;*/
   }
   
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1024px) {
     .photo-grid__items {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 14px;
     }
   }

@@ -5,16 +5,18 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 8px 0 0;
+    max-width: 158px;
+    width: 100%;
+    white-space: nowrap;
+    color: #fff;
+    /*border: solid blue 1px;*/
+    text-align: left;
   }
   
-  @media screen and (max-width: 1024px) {
-    .lead__caption {
-      margin: 8px 0 0 24px;
-    }
-  }
-  
+ 
   @media screen and (max-width: 320px) {
     .lead__caption {
       margin: 8px 0 0 16px;
+      font-size: calc( (100vw - 320px) / (1280 - 320) * (14 -10) + 10px);
     }
   }

@@ -1,16 +1,14 @@
 .footer__copyright {
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     margin: 0;
     padding: 0;
-    width: 186px;
+    max-width: 186px;
+    width: 100%;
+    color: #fff;
     /*border: solid chartreuse;*/
   }
-  
-  @media screen and (max-width: 768px) {
-    .footer__copyright {
-      line-height: 14px;
-      margin-left: 16px;
-    }
-  }
+
+ 

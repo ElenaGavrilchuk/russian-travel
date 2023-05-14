@@ -1,20 +1,16 @@
 .lead__image {
-    /*max-width: 984px;
-    max-height: 615px;*/
+    max-width: 100%px;
+    max-height: 615px;
     width: 100%;
+    height: 100%;
     /*border: solid 1px lawngreen;*/
   }
 
-  @media screen and (max-width: 768px) {
-    .lead__image {
-      max-width: 100%;
-      min-height: 100%;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .lead__image {
-      max-width: 100%;
-      min-height: 100%;
+  @media screen and (max-width: 1024px) {
+    lead__image {
+    max-width: 928px;
+    max-height: 580px;
+    width: 100%;
+      
     }
   }

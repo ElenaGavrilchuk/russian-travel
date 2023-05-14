@@ -1,35 +1,28 @@
 .place_paragraph {
-    line-height: 29.34px;
-    margin: 0px 48px 26px;
+    line-height: 163%;
+    margin: 0px 0px 26px 0;
     font-size: 18px;
-    max-width: 484px;
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden;
-    border: solid 1px blue;
+    font-weight: 400;
+    color: #fff;
+    /*border: solid 1px blue;*/
   }
   
   .place_paragraph:last-child {
     margin-bottom: 0;
   }
   
-  @media screen and (max-width: 1279px) {
+  @media (min-width: 426px) and (max-width: 768px) {
     .place_paragraph {
-      max-width: 456px;
+      font-size: 16px;
+      line-height: 26px;
     }
   }
   
-  @media screen and (max-width: 1023px) {
-    .place_paragraph {
-      max-width: 352px;
-      line-height: 26.08px;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
+  
+  @media screen and (max-width: 320px) {
     .place_paragraph {
       margin: 0 16px 25px;
       max-width: 288px;
-      line-height: 26.08px;
+      
     }
   }

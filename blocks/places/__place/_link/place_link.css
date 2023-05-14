@@ -1,10 +1,10 @@
 .place_link {
-    color: white;
+    color: #fff;
     transition: .3s ease-in-out;
     font-size: 18px;
-    line-height: 22px;
-    width: 456px;
-    border: solid red;
+    line-height: 22px; 
+    font-weight: 400;
+    /*border: solid red;*/
   }
   
   .place_link:hover {
@@ -13,14 +13,14 @@
   
   @media screen and (max-width: 768px) {
     .place_link {
-      width: 352px;
-      margin: 0 24px 48px 392px;
+      max-width: calc(100vw - 416px);
+      
     }
   }
-
+  /*
   @media screen and (max-width: 320px) {
     .place_link {
       margin: 0 16px 32px;
       width: 288px;
     }
-  }
+  }*/

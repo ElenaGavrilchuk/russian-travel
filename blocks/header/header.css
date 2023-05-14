@@ -4,28 +4,8 @@
         margin: 28px 48px 56px;
         padding: 0;
         max-width: 1184px;
+        align-items: center;
         /*border: solid 1px greenyellow;*/
-
       }
       
-      @media screen and (max-width: 1023px) {
-        .header {
-          width: 91%;
-          margin: 28px auto 53px;
-        }
-      }
       
-      @media screen and (max-width: 767px) {
-        .header {
-          margin: 28px auto 48px;
-          width: 94%;
-        }
-      }
-      
-      @media screen and (max-width: 319px) {
-        .header {
-          margin: 16px auto 48px;
-          width: 90%;
-        }
-      }
- 

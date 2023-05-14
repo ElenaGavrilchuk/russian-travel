@@ -2,19 +2,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
-    margin-bottom: 33px;
-    width: 690px;
+    margin: 0 0 33px 0;
+    max-width: 690px;
+    color: #fff;
     /*border: solid 1px chartreuse;*/
   }
-  
-  @media screen and (max-width: 768px) {
-    .intro__text {
-      max-width: 720px;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .intro__text {
-      max-width: 288px;
-    }
-  }
+
+ 

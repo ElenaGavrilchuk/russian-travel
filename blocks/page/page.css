@@ -1,7 +1,14 @@
 .page {
     max-width: 1280px;
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 0 15px;
     box-sizing: content-box;
+    background-color: #2a2c2f;
+    font-family: "Inter" , sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     border: solid 3px darkorange;
+    
   }
+
+ 

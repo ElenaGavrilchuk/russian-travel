@@ -1,23 +1,19 @@
 .place_image {
-    width: 100%;
-    height: 100%;
-    border: solid green;
+    max-width: 460px;
+    display: block;
   }
 
-  @media screen and (max-width: 1279px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     .place_image {
       max-width: 440px;
+      width: 100%;
     }
   }
 
-  @media screen and (max-width: 1023px) {
+  @media (min-width: 426px) and (max-width: 768px) {
     .place_image {
+      margin: 0 auto;
       max-width: 340px;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-    .place_image {
-      max-width: 320px;
+      width: 100%;
     }
   }

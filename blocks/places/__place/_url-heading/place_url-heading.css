@@ -1,26 +1,15 @@
-.place_url-heading {
+  .place_url-heading {
     color: #AAAAAA;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
-    margin: 0 0 12px;
+    margin: 0 0 12px 0;
     text-transform: uppercase;
-    max-width: 456px;
-    width: 100%;
-    padding: 0;
-    border: solid 1px tomato;
+    /*border: solid 1px tomato;*/
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .place_url-heading {
-      margin: 0 24px 12px 392px;
-      width: 352px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .place_url-heading {
-      margin: 32px 16px 12px;
-      width: 288px;
+      margin: 0 16px 12px;
     }
   }
