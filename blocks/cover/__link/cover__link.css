@@ -25,7 +25,8 @@
        position: absolute;
        transition: all 0.3s;
        z-index: 1;
-       
+       left: 0px;
+       top: 0px;
      }
     
      .cover__link:hover::before {

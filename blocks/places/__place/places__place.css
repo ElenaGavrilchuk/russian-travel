@@ -14,6 +14,7 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     .place {
       grid-template-columns: 1fr 1fr;
+      
     }
   }
   
@@ -21,9 +22,9 @@
     .place {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       grid-gap: 48px 28px;
-    }
+      
   }
-   
+} 
   @media screen and (max-width: 425px) {
     .place {
       grid-template-columns: 1fr;

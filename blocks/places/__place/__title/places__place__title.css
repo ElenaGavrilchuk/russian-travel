@@ -3,18 +3,18 @@
     font-size: 72px;
     line-height: 76px;
     align-self: end;
-    margin: 8px 0 0 0;
+    margin: 0;
     color: #fff;
    /* border: solid 1px burlywood;*/
   }
   
     
-  @media screen and (max-width: 768px) {
+  @media (min-width: 426px) and (max-width: 768px) {
     .place__title {
       width: calc(100vw - 428px);
       font-size: calc( ( 100vw - 768px) / (1280 - 768) *  (76 - 46) + 46px);
       line-height: 46px;
-      max-height: 92px;
+     
     }
   }
 

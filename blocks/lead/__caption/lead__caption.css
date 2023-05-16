@@ -4,19 +4,15 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 8px 0 0;
-    max-width: 158px;
-    width: 100%;
-    white-space: nowrap;
     color: #fff;
     /*border: solid blue 1px;*/
-    text-align: left;
+   
   }
   
  
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
     .lead__caption {
-      margin: 8px 0 0 16px;
+      margin: 0 auto 0 16px;
       font-size: calc( (100vw - 320px) / (1280 - 320) * (14 - 10) + 10px);
     }
   }
