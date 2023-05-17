@@ -16,3 +16,10 @@
       margin: 0 auto 88px;
     }
   }
+
+  @media  (max-width: 425px) {
+    .intro {
+      max-width: calc(100vw - 32px);
+      margin: 0 auto 64px;
+    }
+  }

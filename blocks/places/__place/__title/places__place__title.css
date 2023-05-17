@@ -11,8 +11,8 @@
     
   @media (min-width: 426px) and (max-width: 768px) {
     .place__title {
-      width: calc(100vw - 428px);
-      font-size: calc( ( 100vw - 768px) / (1280 - 768) *  (76 - 46) + 46px);
+      width: 95%;
+      font-size: 42px;
       line-height: 46px;
      
     }

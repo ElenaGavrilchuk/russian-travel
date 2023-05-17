@@ -8,20 +8,20 @@
     /*border: solid green;*/
   }
   
-  @media screen and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     .photo-grid__items {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 14px;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media (min-width: 426px) and (max-width: 768px) {
     .photo-grid__items {
       gap: 16px;
     }
   }
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
     .photo-grid__items {
       gap: 12px;
       grid-template-columns: 100%;

@@ -1,0 +1,15 @@
+.footer__link-class {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style: none;
+}
+
+@media  (max-width: 425px) {
+    .footer__link-class {
+   align-content: flex-start;
+   flex-direction: column;
+  }
+  }

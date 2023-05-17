@@ -1,7 +1,7 @@
 .photo-grid {
     margin: 0 auto 92px;
-    max-width: 1184px;
-    width: 100%; 
+    max-width: calc(100vw - 96px);
+     
     /*border: solid 1px crimson;*/
   }
    

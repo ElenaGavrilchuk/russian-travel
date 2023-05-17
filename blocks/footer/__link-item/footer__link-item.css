@@ -1,4 +1,13 @@
 .footer__link-item {
-    color: #fff;
-    text-decoration: none;
+    margin-right: 18px;
+    
 }
+
+
+
+  @media  (max-width: 425px) {
+    .footer__link-item {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  }  

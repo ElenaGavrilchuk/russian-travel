@@ -1,12 +1,10 @@
 .footer__links {
-    margin: 0;
-    padding: 0;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    color: #fff;
+  
     /*border: solid red;*/
   }
   
-  
+  @media  (max-width: 425px) {
+    .footer__links {
+    margin-bottom: 48px;
+  }
+  }
