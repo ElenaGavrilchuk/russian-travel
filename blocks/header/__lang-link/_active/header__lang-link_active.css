@@ -1,5 +1,7 @@
 .header__lang-link_active {
     text-decoration: underline;
     cursor: pointer;
-    /*border: solid 1px gold;*/
+    width: 30px;
+    height: 29px;
+   /* border: solid 1px gold;*/
   }
