@@ -1,26 +1,24 @@
 .lead {
   margin: 0 auto 92px;
   max-width: 984px;
-  max-height: 1005px;
-  height: 100%;
+  height: 100%; 
  /* border: solid 1px greenyellow;*/
   }
   
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .lead {
     max-width: 91%;
   }
   }
 
-  @media (min-width: 426px) and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .lead {
     max-width: 95%;
   }
   }
 
-  @media  (max-width: 425px) {
+  @media  screen and (max-width: 425px) {
     .lead {
-    max-width: 95%;
     margin: 0 auto 64px;
   }
   }
