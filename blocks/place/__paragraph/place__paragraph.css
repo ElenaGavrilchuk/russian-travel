@@ -5,23 +5,35 @@
     font-weight: 400;
     display: flex;
     align-self: start;
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
+    grid-area: paragraph;
+      grid-row-start: paragraph;
+      grid-column-start: paragraph;
+      grid-row-end: paragraph;
+      grid-column-end: paragraph;
+}
     /*border: solid 1px blue;*/
-  }
+  
   
   .place__paragraph:last-child {
     margin-bottom: 0;
   }
-  
-  @media (min-width: 426px) and (max-width: 768px) {
+
+  @media screen and (max-width: 1024px) {
+    .place__paragraph {
+      max-width: 456px;
+      font-size: calc( (100vw - 768px)/(1024 - 768) * (18 - 16) + 16px);
+  }
+}
+  @media  screen and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      
+      max-width: 352px;
     }
   }
   
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
     .place__paragraph {
       margin: 0 16px 25px;
       max-width: 288px;

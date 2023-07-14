@@ -5,23 +5,24 @@
         line-height: 1.04;
         max-width: 720px;
         text-align: center;
-        color: #fff;
+        color: rgba(255, 255, 255, 1);
         /*border: solid 1px magenta;*/
       }
 
               
       @media (max-width: 768px) {
         .lead__title {
-          max-width: 100%;
-          font-size: calc( (100vw - 320px) / (1280 - 320) * (96 - 40) + 40px);
+          font-size: calc((100vw - 425px) / (768 - 425)*(96 - 40) + 40px);
+          margin: 0 24px 32px;
            
         }
       }
 
-      @media  (max-width: 426px) {
+      @media  (max-width: 425px) {
         .lead__title {
-          font-size: 40px;
+          font-size: calc((100vw - 50px) / (425 - 50)*(40 - 10) + 10px);
           max-width: 288px;
+          min-height: calc(100vh - 10px);
           margin: 0 auto 16px;
           line-height: 1.1;
         }

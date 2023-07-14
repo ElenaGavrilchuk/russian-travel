@@ -9,7 +9,8 @@
     /*border: solid 1px tomato;*/
   }
   
-  @media screen and (max-width: 767px) {
+  
+  @media screen and (max-width: 425px) {
     .place__url-heading {
       margin: 0 16px 12px;
     }

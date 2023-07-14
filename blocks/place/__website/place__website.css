@@ -1,7 +1,28 @@
   .place__website {
+    display: grid;
+    grid-area: website;
+    max-width: 456px;
+    min-height: 46px;
+    align-self: end;
+    padding: 0;
     align-self: end;
     /*border: solid khaki;*/
        
   }
-   
+
  
+
+  @media screen and (max-width: 768px){
+ .place__website {
+    max-width: 352px;
+    min-height: 46px;
+    align-self: start;
+}
+}   
+ 
+ @media screen and (max-width: 425px){
+  .place__website {
+     max-width: 288px;
+     
+ }
+ }   

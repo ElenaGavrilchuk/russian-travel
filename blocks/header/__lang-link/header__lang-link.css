@@ -1,5 +1,5 @@
 .header__lang-link {
-    color: #FFF;
+    color: rgba(255, 255, 255, 1);
     text-decoration-line: none;
     font-size: calc((100vw - 320px) / (1280 - 320) * (24 - 18) + 18px);
     line-height: 28px;
