@@ -6,6 +6,7 @@
     margin: 0;
     max-width: 360px;
     color: #FFFFFF;
+    z-index: 2;
     /*border: solid 1px brown;*/
   }
 

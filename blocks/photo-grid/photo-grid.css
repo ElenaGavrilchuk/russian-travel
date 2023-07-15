@@ -2,12 +2,11 @@
   .photo-grid {
     margin: 0 48px 92px;
     max-width: 1184px;
-    
-    min-height: 671px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
+    
     align-items: center;
     justify-content: center;
    
@@ -38,5 +37,6 @@
       gap: 12px;
       grid-template-columns: 1fr;
       width: calc(100vw - 32px);
+      padding: 64px 16px 0;
     }
   }  

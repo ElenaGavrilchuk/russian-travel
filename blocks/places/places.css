@@ -1,7 +1,7 @@
 .places {
     max-width: 984px;
-    
-    margin: 0 auto 92px;
+    padding-bottom: 92px;
+    margin: 0 auto;
     /*border: solid red;*/
     
   }
@@ -9,7 +9,7 @@
   @media screen and (max-width: 1024px) {
     .places {
       max-width: calc(100vw - 96px);
-      min-height: 3292px;
+     
     }
   }
   
