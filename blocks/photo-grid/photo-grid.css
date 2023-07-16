@@ -1,6 +1,6 @@
 
   .photo-grid {
-    margin: 0 48px 92px;
+    margin: 0 auto 92px;
     max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -27,7 +27,7 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 16px;
       width: calc(100vw - 48px);
-      margin: 0 24px 88px;
+      margin: 0 auto 88px;
       
         }
   }
@@ -37,6 +37,11 @@
       gap: 12px;
       grid-template-columns: 1fr;
       width: calc(100vw - 32px);
+<<<<<<< HEAD
+     
+      margin: 0 auto 64px;
+=======
       padding: 64px 16px 0;
+>>>>>>> 056b365870893f40c11625f14a3a0fdb0526538a
     }
   }  

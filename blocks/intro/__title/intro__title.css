@@ -7,4 +7,12 @@
     /*border: solid 1px aquamarine;*/
   }
   
+  @media  (max-width: 425px) {
+    .intro__title {
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 1.09;
+     
+    }
+  }
  

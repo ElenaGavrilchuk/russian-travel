@@ -1,6 +1,7 @@
 .page {
     max-width: 1280px;
     min-height: 100vh;
+    width: 100%;
     margin: 0 auto;
     box-sizing: content-box;
     background-color: #2a2c2f;

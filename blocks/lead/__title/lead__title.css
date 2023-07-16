@@ -20,9 +20,12 @@
 
       @media  (max-width: 425px) {
         .lead__title {
-          font-size: calc((100vw - 50px) / (425 - 50)*(40 - 10) + 10px);
+          font-size: 40px;
           max-width: 288px;
+<<<<<<< HEAD
+=======
          
+>>>>>>> 056b365870893f40c11625f14a3a0fdb0526538a
           margin: 0 auto 16px;
           line-height: 1.1;
         }

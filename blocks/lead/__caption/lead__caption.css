@@ -7,8 +7,15 @@
     text-transform: uppercase;
     color: #fff;
     white-space: nowrap;
+    margin-top: 8px;
     /*border: solid blue 1px;*/
    
+  }
+
+  @media screen and (max-width: 768px) {
+    .lead__caption {
+      margin: 8px 24px 0;
+    }
   }
   
  

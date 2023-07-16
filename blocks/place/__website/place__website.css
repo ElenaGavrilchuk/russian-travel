@@ -2,7 +2,6 @@
     display: grid;
     grid-area: website;
     max-width: 456px;
-    min-height: 46px;
     align-self: end;
     padding: 0;
     /*border: solid khaki;*/
@@ -15,7 +14,8 @@
  .place__website {
     max-width: 352px;
     min-height: 46px;
-    align-self: start;
+    
+    
 }
 }   
  
