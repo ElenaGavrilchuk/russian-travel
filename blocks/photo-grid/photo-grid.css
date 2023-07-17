@@ -6,7 +6,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
-    
     align-items: center;
     justify-content: center;
    
@@ -37,11 +36,7 @@
       gap: 12px;
       grid-template-columns: 1fr;
       width: calc(100vw - 32px);
-<<<<<<< HEAD
-     
       margin: 0 auto 64px;
-=======
-      padding: 64px 16px 0;
->>>>>>> 056b365870893f40c11625f14a3a0fdb0526538a
+      
     }
   }  
