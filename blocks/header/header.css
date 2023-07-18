@@ -5,12 +5,13 @@
         max-width: 1184px;
         width: 100%;
         align-items: center;
+        
         /*border: solid 1px greenyellow;*/
       }
       
-      @media screen and (max-width: 1279px) {
+      @media screen and (max-width: 1024px) {
         .header {
-        max-width: calc(100vw - 93px);
+        max-width: calc(100vw - 96px);
         margin: 28px auto 48px;
       }
       }
@@ -18,7 +19,7 @@
       @media screen and (max-width: 768px) {
         .header {
         max-width: 750px;
-       
+        margin: 0 0 0 0;
       }
       }
 

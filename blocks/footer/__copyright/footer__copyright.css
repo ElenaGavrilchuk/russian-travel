@@ -1,12 +1,17 @@
 .footer__copyright {
- 
+    min-width: 186px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
-    margin: 0;
+    line-height: 1.14;
+    margin: 3px 7px;
     padding: 0;
     color: #fff;
     /*border: solid chartreuse;*/
   }
 
+  @media screen and (max-width: 1024px) {
+    .footer__copyright  {
+     
+    }
+  }
  

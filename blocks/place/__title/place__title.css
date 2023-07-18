@@ -5,7 +5,7 @@
     font-size: 72px;
     line-height: 1.06;
     align-self: end;
-    margin: 0;
+    margin: 2px 0 0 3px;
     color: #fff;
    /* border: solid 1px burlywood;*/
   }
@@ -13,6 +13,7 @@
   @media screen and (max-width: 1024px) {
     .place__title {
       max-width: 440px;
+      margin: 4px 0 0 3px;
     }
   } 
   @media screen and (max-width: 768px) {

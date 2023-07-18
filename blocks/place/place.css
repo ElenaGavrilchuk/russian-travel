@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 460px auto;
   margin: 0 auto 80px;
+  padding: 0;
   row-gap: 48px;
   column-gap: 40px;
   max-width: 984px;
@@ -14,7 +15,7 @@
 }
 
 .place:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
   
   
@@ -24,6 +25,7 @@
       max-width: 928px;
       min-height: fit-content;
       grid-template-columns: 440px auto;
+      margin: 75px 0 0 0px;
     }
   }
   

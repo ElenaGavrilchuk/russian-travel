@@ -2,6 +2,12 @@
   
     /*border: solid red;*/
   }
+
+  @media  (max-width: 1024px) {
+    .footer__links {
+     
+  }
+  }
   
   @media  (max-width: 425px) {
     .footer__links {

@@ -1,6 +1,5 @@
 .lead__image { 
     width: 100%;
-    padding: 0;
     object-fit: cover; 
     /*border: solid 1px lawngreen;*/
     
@@ -9,15 +8,16 @@
   @media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    margin-top: 0;  
+    margin: 0 auto;  
     }
   }
 
   @media screen and (max-width: 768px) {
     .lead__image {
-      width: calc(100vw - 25px);
-      width: 100%;
+      max-width: 768px;
       min-height: 480px;
+      margin: 0;
+      padding: 0;
       }
     }
 

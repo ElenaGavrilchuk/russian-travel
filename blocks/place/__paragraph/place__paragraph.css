@@ -1,6 +1,6 @@
 .place__paragraph {
     line-height: 1.63;
-    margin: 0px 0px 26px 0;
+    margin: -1px 0px 25px 2px;
     font-size: 18px;
     font-weight: 400;
     display: flex;
@@ -23,6 +23,7 @@
     .place__paragraph {
       max-width: 456px;
       font-size: calc( (100vw - 768px)/(1024 - 768) * (18 - 16) + 16px);
+      margin: -1px 0px 26px;
   }
 }
   @media  screen and (max-width: 768px) {
